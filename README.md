@@ -24,7 +24,7 @@ Your task is, based on these CSV files, to build their data model and system.
 
 For each stage ...
 
-- An entity-relationship diagram
+- A schema diagram
 - SQL files to create the postgres data schema and for all queries
 - A working postgres database with the data imported
 
