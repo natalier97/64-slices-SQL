@@ -1,4 +1,4 @@
-id, name, cost_per_pizza
+id, topping_name, cost_per_pizza
 1, dogweed, 4
 2, bell peppers, 2
 3, sausage, 4
