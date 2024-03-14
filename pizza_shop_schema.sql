@@ -51,7 +51,6 @@ CREATE TABLE orders(
     pizza_type VARCHAR(15) NOT NULL,
     store_id INTEGER NOT NULL,
     toppings INTEGER[],
-    FOREIGN KEY (order_id) REFERENCES orders(order_id),
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
     FOREIGN KEY (store_id) REFERENCES stores(store_id)
 );
